@@ -1,4 +1,8 @@
+# SPA<sub>GRM</sub> introduction
 
+SPA<sub>GRM</sub> is now implemented in the [GRAB package](https://wenjianbi.github.io/grab.github.io/)
+
+Detailed documentation is available at [SPAGRM online tutorial](https://fantasy-xuhe.github.io/SPAGRM.github.io/)
 
 # SPA<sub>GRM</sub> reproducibility
 Scripts to reproduce the experiments performed for the SPA<sub>GRM</sub> manuscript:
