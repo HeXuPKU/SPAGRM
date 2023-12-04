@@ -1,4 +1,4 @@
-# SPA<sub>GRM</sub>
+# SPA<sub>GRM</sub> introduction
 
 SPA<sub>GRM</sub> is now implemented in the [GRAB package](https://wenjianbi.github.io/grab.github.io/)
 
