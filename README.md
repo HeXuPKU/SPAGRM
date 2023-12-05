@@ -6,9 +6,9 @@ SPA<sub>GRM</sub> is a two-step method to control for sample relatedness in larg
 
 ![plot](https://github.com/Fantasy-XuHe/SPAGRM/blob/main/pictures/workfolw%20of%20SPAGRM.png)
 
-SPA<sub>GRM</sub> is now implemented in the [GRAB package](https://wenjianbi.github.io/grab.github.io/)
+SPA<sub>GRM</sub> is now implemented in the [GRAB package](https://wenjianbi.github.io/grab.github.io/).
 
-Detailed documentation about how to use SPA<sub>GRM</sub> is available at [SPAGRM online tutorial](https://fantasy-xuhe.github.io/SPAGRM.github.io/)
+Detailed documentation about how to use SPA<sub>GRM</sub> is available at [SPAGRM online tutorial](https://fantasy-xuhe.github.io/SPAGRM.github.io/).
 
 # SPA<sub>GRM</sub> reproducibility
 
