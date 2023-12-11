@@ -10,7 +10,7 @@ SPA<sub>GRM</sub> is now implemented in the [GRAB package](https://wenjianbi.git
 
 Detailed documentation about how to use SPA<sub>GRM</sub> is available at [SPAGRM online tutorial](https://fantasy-xuhe.github.io/SPAGRM.github.io/).
 
-Summary statistics of 79 longitudinal traits extracted from UK Biobank primary care data is available at [here](https://zenodo.org/records/10242062)
+Summary statistics of 79 longitudinal traits extracted from UK Biobank primary care data is available at [here](https://zenodo.org/records/10242062).
 
 # SPA<sub>GRM</sub> reproducibility
 
