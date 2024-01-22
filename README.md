@@ -23,10 +23,13 @@ Scripts to reproduce the experiments performed for the SPA<sub>GRM</sub> manuscr
 
 ## Real data analysis
 1. extract longitudinal traits from UK Biobank primary care data
+'''
+aaa
+'''
 
-2. preprocess longitudinal traits
-3. fit the null model via WiSER package
-4. GWAS analysis
-5. PRS adjustment (optional)
+3. preprocess longitudinal traits
+4. fit the null model via WiSER package
+5. GWAS analysis
+6. PRS adjustment (optional)
 
 ## Simulation study
