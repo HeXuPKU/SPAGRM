@@ -21,7 +21,12 @@ Scripts to reproduce the experiments performed for the SPA<sub>GRM</sub> manuscr
 
 ```A scalable, accurate, and universal analysis framework to control for sample relatedness in large-scale genome-wide association studies and its application to 79 longitudinal traits in UK Biobank (to be updated)```
 
-## Simulation studies
-
-
 ## Real data analysis
+1. extract longitudinal traits from UK Biobank primary care data
+
+2. preprocess longitudinal traits
+3. fit the null model via WiSER package
+4. GWAS analysis
+5. PRS adjustment (optional)
+
+## Simulation study
