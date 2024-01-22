@@ -29,8 +29,20 @@ In real_data\1.extract_pheno:
 # real_data_extra-2023-05-01XH.R preprocesses the gp_clinical table.
 ```
 2. preprocess longitudinal traits
+```
+```
 3. fit the null model via WiSER package
+```
+```
 4. GWAS analysis
+4.1. SPA<sub>GRM</sub> analysis 
+```
+```
+4.2. TrajGWAS analysis
+```
+```
 5. PRS adjustment (optional)
+```
+```
 
 ## Simulation study
