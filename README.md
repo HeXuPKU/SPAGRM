@@ -30,13 +30,19 @@ In real_data\1.extract_pheno:
 ```
 2. preprocess longitudinal traits
 ```
+In real_data\2.preprocess:
+# XXX_preprocess.R extracts longitudinal traits from gp_clinical table and preprocesses each longitudinal traits.
 ```
 3. fit the null model via WiSER package
 ```
+In real_data\3.null_fitter:
+# XXX_null_fitter.jl fits the null model and obtains model residuals for each longitudinal trait.
 ```
 4. GWAS analysis
 - SPA<sub>GRM</sub> analysis 
 ```
+In real_data\4.1.SPAGRM:
+# XXX_SPAGRM.R conducts the SPAGRM analysis. This contains two parts: 1). Pre-calculation of the joint distribution of genotypes and 2). Conduct genome-wide association studies for each SNP.
 ```
 - TrajGWAS analysis
 ```
