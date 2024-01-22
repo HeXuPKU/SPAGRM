@@ -42,13 +42,21 @@ In real_data\3.null_fitter:
 - SPA<sub>GRM</sub> analysis 
 ```
 In real_data\4.1.SPAGRM:
-# XXX_SPAGRM.R conducts the SPAGRM analysis. This contains two parts: 1). Pre-calculation of the joint distribution of genotypes and 2). Conduct genome-wide association studies for each SNP.
+# XXX_SPAGRM.R conducts the SPAGRM analysis with two parts: 1). pre-calculate of the joint distribution of genotypes and 2). conduct genome-wide association studies for each SNP.
 ```
 - TrajGWAS analysis
 ```
+In real_data\4.2.TrajGWAS:
+# XXX_TrajGWAS.jl conducts the TrajGWAS analysis.
 ```
 5. PRS adjustment (optional)
 ```
+In real_data\5.PRS_adjustment (optional):
+# 1.select_index_SNPs_from_results_of_SPAGRM.R selects independent SNPs that pass the given p value threshold based on the GWAS results of SPAGRM.
+# 2.estimate_effect_sizes_XXX.jl estimate the effect sizes of index SNPs via WiSER package.
+# 3.construct_LOCO-PRS.R constructs the Leave One Chromosome Out Polygenic Risk Scores (LOCO-PRS).
+# 4.adjust_PRS_in_null_model_fitting_XXX.jl adds the PRS into the null model fitting.
+# 5.second_round_of_GWAS_via_SPAGRM.R conducts the second round of GWAS via SPAGRM.
 ```
 
 ## Simulation study
