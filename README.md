@@ -10,7 +10,10 @@ SPA<sub>GRM</sub> is a scalable, accurate, and universal analysis framework to c
 
 # About this repository
 
-This repository contains: 1) old version of SPA<sub>GRM</sub>, 2) materials for reproducing the experiments, and figures of 79 longitudinal trait analyses.
+This repository contains: 
+1) old version of SPA<sub>GRM</sub>;
+2) figures of GWAS results of 79 longitudinal traits;
+3) materials for reproducing the experiments.
 
 # SPA<sub>GRM</sub> reproducibility
 
