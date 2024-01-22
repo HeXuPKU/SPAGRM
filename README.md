@@ -35,10 +35,10 @@ In real_data\1.extract_pheno:
 ```
 ```
 4. GWAS analysis
-4.1. SPA<sub>GRM</sub> analysis 
+- SPA<sub>GRM</sub> analysis 
 ```
 ```
-4.2. TrajGWAS analysis
+- TrajGWAS analysis
 ```
 ```
 5. PRS adjustment (optional)
