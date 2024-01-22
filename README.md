@@ -60,3 +60,9 @@ In real_data\5.PRS_adjustment (optional):
 ```
 
 ## Simulation study
+```
+In simulation:
+# 1.simupheno contains R script to simulate longitudinal data.
+# 2.typeIerror contains scripts to conduct 1e9 type I error simulations.
+# 3.power contains scripts to conduct 1e3 power simulations.
+```
