@@ -4,11 +4,11 @@ SPA<sub>GRM</sub> is a scalable, accurate, and universal analysis framework to c
 
 # About this repository
 
-This repository mainly contains old version of SPA<sub>GRM</sub> and materials for reproducing the experiments.
+This repository contains: 1) old version of SPA<sub>GRM</sub>, 2) materials for reproducing the experiments, and figures of 79 longitudinal trait analyses.
 
 SPA<sub>GRM</sub> is now implemented in the [GRAB package](https://wenjianbi.github.io/grab.github.io/). Please click here to download.
 
-Detailed documentation about how to use SPA<sub>GRM</sub> is available at [SPAGRM online tutorial](https://fantasy-xuhe.github.io/SPAGRM.github.io/).
+Detailed documentation about how to use SPA<sub>GRM</sub> is available at [SPAGRM documentation](https://fantasy-xuhe.github.io/SPAGRM.github.io/).
 
 Summary statistics of 79 longitudinal traits extracted from UK Biobank primary care data is available at [here](https://zenodo.org/records/10242062).
 
