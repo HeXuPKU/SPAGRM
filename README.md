@@ -24,12 +24,13 @@ Scripts to reproduce the experiments performed for the SPA<sub>GRM</sub> manuscr
 ## Real data analysis
 1. extract longitudinal traits from UK Biobank primary care data
 ```
-aaa
+In real_data\1.extract_pheno:
+# phecode-2023-05-10XH.R defines the Read v2 and CTV3 code terms for 79 longitudinal traits.
+# real_data_extra-2023-05-01XH.R preprocesses the gp_clinical table.
 ```
-
-3. preprocess longitudinal traits
-4. fit the null model via WiSER package
-5. GWAS analysis
-6. PRS adjustment (optional)
+2. preprocess longitudinal traits
+3. fit the null model via WiSER package
+4. GWAS analysis
+5. PRS adjustment (optional)
 
 ## Simulation study
