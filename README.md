@@ -79,9 +79,36 @@ In real_data\5.PRS_adjustment (optional):
 
 ### 1. genotype simulation
 
+To mimic the genotype distribution in real data, we simulated genotype data using real genotype data of White British subjects in UK Biobank by performing gene-dropping simulations. We simulated 100,000 common variants (MAF > 0.05) and rare variants (MAF < 0.05 and MAC > 20) from genotype calls (field ID: 22418) and sequencing data (field ID: 23155), respectively. The following R script may be lengthy, but the general idea is using the real genotype file as the input of function `GRAB.SimuGMatFromGenoFile()` in GRAB package.
+
 ```
-In simulation:
-# 1.simupheno contains R script to simulate longitudinal data.
-# 2.typeIerror contains scripts to conduct 1e9 type I error simulations.
-# 3.power contains scripts to conduct 1e3 power simulations.
+In simulation\1.simulate_genotype:
+SimulatedGenotypeUsingWES-2023-02-16XH.R   # contains R script to simulate genotypes.
+```
+
+### 2. phenotype simulation
+
+We simulated longitudinal traits following TrajGWAS model. The number of measurements was simulated equally distributed ranging from 6 to 15. Three covariates in the mean and within-subject (WS) variability formulas were simulated as: the first one is time-invariant following a Bernoulli distribution with a probability of 0.5; the second one is time-invariant variable following the standard normal distribution, and the third one is time-varying with each measurement following an independent standard normal distribution. One time-varying covariate was simulated following an independent standard normal distribution as random slope. We additionally added random effects that followed a multivariate normal distribution related to GRM to mimic sample relatedness. We chose similar parameters as in TrajGWAS. In addition to the above, we also used the inverse-gamma distribution to generate WS variability instead of the log-normal model as in Trajgwas. We also used the GEE model with various working correlation structures to simulate longitudinal traits.
+
+```
+In simulation\2.simulate_phenotype:
+longitudinal_pheno_simu_function-2023-02-16XH.R   # contains R script to simulate longitudinal traits as described above.
+longitudinal_pheno_simu_function-2024-04-16XH.R   # contains R script to simulate longitudinal traits using inverse-gamma distribution to generate WS variability.
+longitudinal_pheno_simu_function-2024-08-13XH.R   # contains R script to simulate longitudinal traits using GEE model with various working correlation structures.
+```
+
+### 3. empirical type I error rates
+
+In each scenario, we conducted 1e9 type I error simulations using genotypes and phenotypes simulated above. 
+
+```
+In simulation\3.typeIerror, contains R scripts to conduct 1e9 type I error simulations.
+```
+
+### 4. empirical power
+
+In each scenario, we conducted 1e3 power simulations using genotypes and phenotypes simulated above. 
+
+```
+In simulation\4.power, contains R scripts to conduct 1e3 empirical power simulations.
 ```
