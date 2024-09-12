@@ -22,7 +22,7 @@ Scripts to reproduce the experiments performed for the SPA<sub>GRM</sub> manuscr
 **A scalable and accurate analysis framework to control for sample relatedness in large-scale genome-wide association studies and its application to 79 longitudinal traits in UK Biobank (to be updated)**
 
 ## Real data analysis
-1. extract longitudinal traits from UK Biobank primary care data
+### 1. extract longitudinal traits from UK Biobank primary care data
 ```
 In real_data\1.extract_pheno:
 # phecode-2023-05-10XH.R defines the Read v2 and CTV3 code terms for 79 longitudinal traits.
