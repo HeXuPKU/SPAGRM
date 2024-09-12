@@ -28,28 +28,28 @@ In real_data\1.extract_pheno:
 # phecode-2023-05-10XH.R defines the Read v2 and CTV3 code terms for 79 longitudinal traits.
 # real_data_extra-2023-05-01XH.R preprocesses the gp_clinical table.
 ```
-2. preprocess longitudinal traits
+### 2. preprocess longitudinal traits
 ```
 In real_data\2.preprocess:
 # XXX_preprocess.R extracts longitudinal traits from gp_clinical table and preprocesses each longitudinal traits.
 ```
-3. fit the null model via WiSER package
+### 3. fit the null model via WiSER package
 ```
 In real_data\3.null_fitter:
 # XXX_null_fitter.jl fits the null model and obtains model residuals for each longitudinal trait.
 ```
-4. GWAS analysis
-- SPA<sub>GRM</sub> analysis 
+### 4. GWAS analysis
+#### - SPA<sub>GRM</sub> analysis 
 ```
 In real_data\4.1.SPAGRM:
 # XXX_SPAGRM.R conducts the SPAGRM analysis with two parts: 1). pre-calculate of the joint distribution of genotypes and 2). conduct genome-wide association studies for each SNP.
 ```
-- TrajGWAS analysis
+#### - TrajGWAS analysis
 ```
 In real_data\4.2.TrajGWAS:
 # XXX_TrajGWAS.jl conducts the TrajGWAS analysis.
 ```
-5. PRS adjustment (optional)
+### 5. PRS adjustment (optional)
 ```
 In real_data\5.PRS_adjustment (optional):
 # 1.select_index_SNPs_from_results_of_SPAGRM.R selects independent SNPs that pass the given p value threshold based on the GWAS results of SPAGRM.
