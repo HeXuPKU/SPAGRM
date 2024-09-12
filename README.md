@@ -23,11 +23,15 @@ Scripts to reproduce the experiments performed for the SPA<sub>GRM</sub> manuscr
 
 ## Real data analysis
 ### 1. extract longitudinal traits from UK Biobank primary care data
+
+In this paper, we extracted 79 longitudinal traits from UKB primary care data. The UK Biobank (UKB) primary care data (Category ID: 3001) is derived from electronic health records (EHRs) maintained by General Practitioners (GPs) from multiple data providers in England, Wales, and Scotland (see URLs). As of the latest release in September 2019, approximating 230,000 UKB participants have been linked to their corresponding primary care data. This dataset includes clinical event records (Field ID: 42040) spanning over 30 years, rich in information of diagnoses, history, symptoms, lab results, and procedures. Two controlled clinical terminologies, Read version 2 (Read v2) and Clinical Terms Version 3 (CTV3) are used to record these primary clinical events. Read v2 and CTV3 clinical terms to extract 79 longitudinal traits are available at real_data\1.extract_pheno\phecode-2023-05-10XH.R, and longitudinal traits should download from UKB primary care data (Category ID: 3001).
+
 ```
 In real_data\1.extract_pheno:
-# phecode-2023-05-10XH.R defines the Read v2 and CTV3 code terms for 79 longitudinal traits.
-# real_data_extra-2023-05-01XH.R preprocesses the gp_clinical table.
+phecode-2023-05-10XH.R # defines the Read v2 and CTV3 code terms for 79 longitudinal traits.
+real_data_extra-2023-05-01XH.R # preprocesses the gp_clinical table.
 ```
+
 ### 2. preprocess longitudinal traits
 ```
 In real_data\2.preprocess:
