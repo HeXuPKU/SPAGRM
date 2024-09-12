@@ -12,14 +12,14 @@ SPA<sub>GRM</sub> is a scalable, accurate, and universal analysis framework to c
 
 This repository contains: 
 1) old version of SPA<sub>GRM</sub>;
-2) manhattan and QQ plots of GWAS results of 79 longitudinal traits;
+2) manhattan and QQ plots of GWAS results for 79 longitudinal traits;
 3) materials for reproducing the experiments, including real data analyses and simulation studies.
 
 # SPA<sub>GRM</sub> reproducibility
 
 Scripts to reproduce the experiments performed for the SPA<sub>GRM</sub> manuscript:
 
-**A scalable, accurate, and universal analysis framework to control for sample relatedness in large-scale genome-wide association studies and its application to 79 longitudinal traits in UK Biobank (to be updated)**
+**A scalable and accurate analysis framework to control for sample relatedness in large-scale genome-wide association studies and its application to 79 longitudinal traits in UK Biobank (to be updated)**
 
 ## Real data analysis
 1. extract longitudinal traits from UK Biobank primary care data
