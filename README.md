@@ -1,6 +1,6 @@
 # SPA<sub>GRM</sub> introduction
 
-SPA<sub>GRM</sub> is a scalable, accurate, and universal analysis framework to control for sample relatedness in large-scale genome-wide association studies (GWAS). In the paper **A scalable, accurate, and universal analysis framework to control for sample relatedness in large-scale genome-wide association studies and its application to 79 longitudinal traits in UK Biobank (to be updated)**, we applied SPA<sub>GRM</sub> to analyze 79 longitudinal traits extracted from UK Biobank primary care data. As a universal analysis framework, we also evaluated SPA<sub>GRM</sub>'s performance in quantitative and binary trait analysis. 
+SPA<sub>GRM</sub> is a scalable, accurate, and universal analysis framework to control for sample relatedness in large-scale genome-wide association studies (GWAS). In the paper **A scalable and accurate analysis framework to control for sample relatedness in large-scale genome-wide association studies and its application to 79 longitudinal traits in the UK Biobank (to be updated)**, we applied SPA<sub>GRM</sub> to analyze 79 longitudinal traits extracted from UK Biobank primary care data.
 
 **SPA<sub>GRM</sub> is now implemented in the [GRAB package](https://wenjianbi.github.io/grab.github.io/). Please click here to download.**
 
@@ -12,8 +12,8 @@ SPA<sub>GRM</sub> is a scalable, accurate, and universal analysis framework to c
 
 This repository contains: 
 1) old version of SPA<sub>GRM</sub>;
-2) figures of GWAS results of 79 longitudinal traits;
-3) materials for reproducing the experiments.
+2) manhattan and QQ plots of GWAS results of 79 longitudinal traits;
+3) materials for reproducing the experiments, including real data analyses and simulation studies.
 
 # SPA<sub>GRM</sub> reproducibility
 
