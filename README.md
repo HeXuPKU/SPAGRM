@@ -39,12 +39,12 @@ In real_data\3.null_fitter:
 # XXX_null_fitter.jl fits the null model and obtains model residuals for each longitudinal trait.
 ```
 ### 4. GWAS analysis
-#### - SPA<sub>GRM</sub> analysis 
+- SPA<sub>GRM</sub> analysis 
 ```
 In real_data\4.1.SPAGRM:
 # XXX_SPAGRM.R conducts the SPAGRM analysis with two parts: 1). pre-calculate of the joint distribution of genotypes and 2). conduct genome-wide association studies for each SNP.
 ```
-#### - TrajGWAS analysis
+- TrajGWAS analysis
 ```
 In real_data\4.2.TrajGWAS:
 # XXX_TrajGWAS.jl conducts the TrajGWAS analysis.
