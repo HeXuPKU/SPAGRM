@@ -1,4 +1,9 @@
 
+### Here we use pedigree data consisting of 6,250 4-member families (25,000 individuals) to show how to use Chow-Liu algorithm 
+### to approximate the joint distribution of genotypes and their corresponding moment generating function (MGF), and compare it
+### with that using a normal distribution. For how to use Chow-Liu algorithm to approximate genotype distribution approximation 
+### in actual analysis, please refer to 'chou.liu.tree()' in "https://github.com/HeXuPKU/SPAGRM/blob/main/old_version/subfunc-2023-03-22XH.R".
+
 library(dplyr)
 library(tidyr)
 library(igraph)
