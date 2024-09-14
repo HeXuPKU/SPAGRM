@@ -111,9 +111,13 @@ for(para in c("beta", "tau"))
   
   if(para == "beta")
   {
+    # ResidMat = data.frame(SubjID = 1:25000, Resid = rnorm(25000)) # use normal distribution to simulate residuals for testing beta = 0.
+    
     ResidMat = data.table::fread("/gdata01/user/xuhe/SPA-GRM/simulation-2023-09-19/scenario2/residuals/ResidB-1.beta.txt")
   }else
   {
+    # ResidMat = data.frame(SubjID = 1:25000, Resid = invgamma::rinvgamma(n = 25000, shape = 5, rate = 10)) # use inverse-gamma distribution to simulate residuals for testing tau = 0.
+    
     ResidMat = data.table::fread("/gdata01/user/xuhe/SPA-GRM/simulation-2023-09-19/scenario2/residuals/ResidB-1.tau.txt")
   }
   
