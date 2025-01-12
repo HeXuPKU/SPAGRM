@@ -6,7 +6,7 @@ SPA<sub>GRM</sub> is a scalable, accurate, and universal analysis framework to c
 
 **Detailed documentation about how to use SPA<sub>GRM</sub> is available at [SPA<sub>GRM</sub> documentation](https://hexupku.github.io/SPAGRM.github.io/).**
 
-**Summary statistics of 79 longitudinal traits extracted from UK Biobank primary care data is available at [here](https://zenodo.org/records/10242062).**
+**Summary statistics of 79 longitudinal traits extracted from UK Biobank primary care data is available at [here](https://zenodo.org/records/14633793).**
 
 # About this repository
 
